@@ -1,0 +1,45 @@
+body {
+font-family: "Roboto", sans-serif;
+font-weight: 400;
+font-style: normal;
+font-size: 18px;
+color: "#FFFFFF";
+}
+
+.container {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links {
+    display: flex;
+}
+
+.link {
+    line-height: calc(25);
+    letter-spacing: 0.10998px;
+    color: #404040;
+    margin-left: 37px;
+}
+
+.links li:first-child .link {
+    margin-left: 0;
+}
+
+.header-button {
+    background: #2468ff;
+    padding: 27px 64px;
+    font-size: 14px;
+    text-transform: uppercase;
+    line-height: calc(25 / 14);
+    color: #ffffff;
+    cursor: pointer;
+}
