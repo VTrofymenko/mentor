@@ -24,7 +24,7 @@ header .container {
 }
 
 .link {
-    line-height: calc(25);
+    line-height: calc(25 / 18);
     letter-spacing: 0.10998px;
     color: #404040;
     margin-left: 37px;
