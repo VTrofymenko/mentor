@@ -9,34 +9,62 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
     <header>
-        <div class="container">
-            <a href="./maket.html">
-            <img src="./images/logo.svg" alt="logo"
-            width="106,98" height="46,67">
+        <div class="header-top">
+            <p class="top-text">
+                Free 2-day shipping | 30-day money back guarantee
+            </p>
+        </div>
+        <div class="container header-container">
+            <a href="./maket.html" class="logo-link">
+            <svg class="logo-icon" width="107" height="49">
+                <use href="./images/icons.svg#icon-loggo">
+                </use>
+            </svg>
             </a>
-            <nav>
-                <ul class="links">
-                    <li><a href="" class="link"></a>Products</li>
-                    <li><a href="" class="link"></a>How it works</li>
-                    <li><a href="" class="link"></a>Technology</li>
-                    <li><a href="" class="link"></a>eero Secure</li>
-                    <li><a href="" class="link"></a>Support</li>
-                    <li><a href="" class="link"></a>Find your system</li>
+            <nav class="header-nav">
+                <ul class="header-list">
+                    <li class="header-item"><a href="" class="header-link">Products</a></li>
+                    <li class="header-item"><a href="" class="header-link">How it works</a></li>
+                    <li class="header-item"><a href="" class="header-link">Technology</a></li>
+                    <li class="header-item"><a href="" class="header-link">eero Secure</a></li>
+                    <li class="header-item"><a href="" class="header-link">Support</a></li>
+                    <li class="header-item"><a href="" class="header-link">Find your system</a></li>
                 </ul>
             </nav>
             <button type="button" class="header-button">Shop</button>
         </div>
     </header>
-    <main>
-        <section>
-            <h1>Wi-Fi 6 is here.</h1>
-            <p>The future of home wifi is fast.</p>
-            <button type="button">SHOP WIFI SOLUTIONS</button>
+        <section class="hero">
+            <div class="hero-container">
+                <h1 class="hero-title">Wi-Fi 6 is here.</h1>
+                <p class="hero-text">The future of home wifi is fast.</p>
+                <button type="button" class="hero-button">SHOP WIFI SOLUTIONS</button>
+                <div class="hero-image-wrapper">
+                    <img src="./images/second-hero-img.png" alt="router"
+                    width="576" height="324">
+                </div>
+            </div>
         </section>
-    </main>
+        <section class="explore">
+            <p class="explore-pre-title">
+                Explore eero systems on
+            </p>
+            <svg class="amazon-icon" width="107" height="32">
+                <use href="./images/icons.svg#icon-amazon"></use>
+            </svg>
+            <a href="" class="explore-link">Shop now</a>
+            <h2 class="explore-title">More wifi for the devices in your connected home.</h2>
+            <p class="explore-after-title">eero 6 systems use the power of Wi-Fi 6 to deliver faster speeds, increase your internet’s efficiency, and reduce network congestion. Say goodbye to dead spots and buffering with a connection that doesn’t slow you down, even as you add more devices.</p>
+            <button class="explore-button">Find your eero system</button>
+            <div class="explore-image-wrapper">
+                <img src="./images/explore-img.png" alt="explore-wifi"
+                    width="928" height="747">
+            </div>
+        </section>
 </body>
 </html>
