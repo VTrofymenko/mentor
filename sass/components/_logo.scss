@@ -1,0 +1,15 @@
+.logo-link {
+    padding-top: 15px;
+    padding-bottom: 17px;
+}
+
+.logo-icon {
+    fill: #000000;
+    background-color: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    transition: var(--animation);
+
+    .logo-link:hover &,
+    .logo-link:focus & {
+fill: var(--link-hover);
+    }
+}
