@@ -1,0 +1,66 @@
+.unlock {
+    background-image: url(../../images/unlock.png);
+    background-size: cover;
+    padding-top: 167px;
+    padding-bottom: 149px;
+}
+
+.svg-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 57px;
+}
+
+.svg-item + .svg-item {
+    margin-left: 32px;
+}
+
+.svg-link {
+    transition: var(--animation);
+}
+
+.wifi-icon {
+    fill: transparent;
+    stroke: #ffffff;
+
+    .svg-link:hover &, .svg-link:focus & {
+        fill: #000000;
+        transition: var(--animation);
+    }
+}
+
+.unlock-title {
+    text-align: center;
+    margin: 0 auto;
+    font-size: 50px;
+    line-height: calc(60 / 50);
+}
+
+.unlock-text {
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 44px;
+    margin-bottom: 118px;
+    max-width: 734px;
+    line-height: calc(25 / 18);
+}
+
+.unlock-button {
+    display: block;
+    margin: 0 auto;
+    padding: 17px 66px 21px 65px;
+    border-color: transparent;
+    color: inherit;
+    background-color: var(--link-hover);
+    transition: var(--animation);
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 1;
+    letter-spacing: 0.11px;
+    text-transform: uppercase;
+    
+    &:hover, &:focus {
+        background-color: var(--button-hover);
+    }
+}

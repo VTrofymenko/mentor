@@ -1,0 +1,23 @@
+.journal {
+    padding-top: 200px;
+    padding-bottom: 205px;
+    background-color: var(--second-text-color);
+    text-align: center;
+}
+
+.journal-title {
+    margin: 0 auto;
+    text-align: center;
+    max-width: 823px;
+    font-weight: 900;
+    font-size: 42px;
+    line-height: calc(48 / 42);
+    margin-bottom: 49px;
+}
+
+.journal-text {
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 42px;
+    line-height: calc(48 / 42);
+}
